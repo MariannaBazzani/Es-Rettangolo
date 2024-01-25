@@ -20,5 +20,10 @@ namespace Es_Rettangolo
         {
             return 2 * (Base + Altezza);
         }
+
+        public override string ToString()
+        {
+            return string.Format($"Sono un rettangolo di altezza: {0} e base: {1}", Altezza, Base);
+        }
     }
 }
